@@ -1,0 +1,144 @@
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+} */
+
+.main-navigation {
+  align-items: center;
+  background-color: #323232;
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-font-smoothing: antialiased;
+  height: 56px;
+  padding: 0 30px;
+}
+
+.main-navigation-logo-link {
+  display: flex;
+  height: 100%;
+  margin-right: 20px;
+  transition: opacity 0.2s ease;
+}
+
+.main-navigation-logo-link:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.main-navigation-logo-link > img {
+  margin: auto;
+}
+
+.main-navigation-link {
+  align-items: center;
+  color: #999999;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.main-navigation-link:hover {
+  color: #dddddd;
+}
+
+.main-navigation-link-caret {
+  fill: none;
+  margin-left: 0.25em;
+}
+
+.main-navigation-link-caret path {
+  stroke: currentColor;
+}
+
+.main-navigation-link-text {
+  line-height: 1;
+}
+
+.main-navigation-link-dropdown {
+  background-color: #333333;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.main-navigation-item {
+  height: 100%;
+  position: relative;
+}
+
+.main-navigation-item:hover .main-navigation-link-dropdown {
+  display: block;
+}
+
+.main-navigation-boxes {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main-navigation-box {
+  padding: 30px 17px;
+  width: 146px;
+}
+
+.main-navigation-box.-extras {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.main-navigation-box.-extras > div > a {
+  color: white;
+  display: block;
+  font-weight: 500;
+  padding: 9px 0;
+  text-decoration: none;
+}
+
+.main-navigation-box.-extras > div > a:hover {
+  color: #dddddd;
+}
+
+.main-navigation-box.-extras > div > hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.main-navigation-box:first-child {
+  padding-left: 30px;
+}
+
+.main-navigation-box:last-child {
+  padding-right: 30px;
+}
+
+.main-navigation-box-image {
+  border-radius: 4px;
+}
+
+.main-navigation-box-title {
+  color: white;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  margin-top: 15px;
+}
+
+.main-navigation-box-description {
+  color: #bbbbbb;
+  font-size: 13px;
+}
