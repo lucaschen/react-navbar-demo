@@ -66,24 +66,24 @@ const Root = () => {
                 title="Shots"
               />
               <MainNavigationBox
-                description="Get inspired with designs shared by our talented community"
+                description="Check out the rankings and see which designers are trending"
                 imageSrc={placeholder}
-                title="Shots"
+                title="Top Designers"
               />
               <MainNavigationBox
-                description="Get inspired with designs shared by our talented community"
+                description="Amazing interviews with design industry leaders, tutorials, and more"
                 imageSrc={placeholder}
-                title="Shots"
+                title="Blog"
               />
               <MainNavigationBox
-                description="Get inspired with designs shared by our talented community"
+                description="Join the fun and flex your design skills with our weekly prompt"
                 imageSrc={placeholder}
-                title="Shots"
+                title="Weekly Warmup"
               />
               <MainNavigationBox
-                description="Get inspired with designs shared by our talented community"
+                description="See Shots that other designers are riffing on & participate yourself"
                 imageSrc={placeholder}
-                title="Shots"
+                title="Playoffs"
               />
             </MainNavigationBoxes>
             <MainNavigationBoxExtras
